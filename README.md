@@ -11,4 +11,4 @@
 <code>npm start</code>
 <h4>IF Doesn't Runs Then Use Bower</h4>
 <code>bower install</code>
-<footer><h3>THANKS TO <a href="https://bower.io">Bower</a></h3> & <h3>THANKS TO <a href="https://milligram.io">Miligram</a></h3></footer>
+<footer><h3>THANKS TO <a href="https://milligram.io">Miligram</a> & <a href="https://bower.io">Bower</a></h3></footer>
