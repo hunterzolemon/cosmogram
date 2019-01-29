@@ -1,0 +1,135 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #606c76;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  letter-spacing: .01em;
+  line-height: 1.6;
+  overflow-x: hidden;
+  user-select: none;
+}
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+.container {
+	max-width: 80.0rem;
+	padding-bottom: 4.5rem;
+	padding-top: 3.5rem;
+}
+
+#home {
+	background: #f4f5f6;
+	height: 100vh;
+	position: relative;
+	max-height: 80vh;
+	min-width: 100vw;
+}
+.box{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 200px 200px;
+  grid-gap: 10em;
+  padding: 3em;
+}
+.box1{
+  grid-row: 1;
+  grid-column: 1;
+
+}
+.box2{
+  grid-row: 2;
+  grid-column: 4;
+  height: 100px;
+}
+.box3{
+  grid-row: 1;
+  grid-column: 4;
+  
+  
+}
+.thumbnail {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+  
+}
+.divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+.collection {
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+}
+
+.collection .collection-item {
+  background-color: #fff;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  margin: 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.collection .collection-item.avatar {
+  min-height: 84px;
+  padding-left: 72px;
+  position: relative;
+}
+nav{
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: #f4f5f2;
+  height: 60px;
+  padding-top: .7em;
+  padding-bottom: .7em;
+  width: 100%;
+
+}
+nav ul{
+  text-align: center;
+  position: relative;
+}
+nav ul li{
+  display: inline;
+  padding-left: 1em;
+  padding-right: 1em;
+  
+}
+nav ul li a{
+  padding: 1em;
+  font-weight: bold;
+  color: #606c76;
+
+}
+nav ul li a:hover{
+  border-bottom: 2.5px solid #606c76;
+  text-shadow: .5px .5px 1px black;
+  
+}
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+legend:hover{
+  text-shadow: .5px .5px 1px black;
+}
