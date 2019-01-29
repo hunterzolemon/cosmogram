@@ -2,4 +2,8 @@
 
 <h4>git clone <code>https://github.com/hunterzolemon/cosmogram.git</code></h4><br>
 <h4>Install  <a href="https://bower.io">Bower</a></h4><br>
-<code>npm install -g bower</code>
+<code>npm install -g bower</code><br>
+<code>bower install</code>
+<code>npm install</code>
+<h4>Now Run It</h4>
+<code>npm start</code>
